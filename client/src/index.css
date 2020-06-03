@@ -1,0 +1,26 @@
+body {
+  background-color: #009688;
+}
+
+.dashboard-header {
+  background-color: #000 !important;
+  width: 70% !important;
+  margin-bottom: 1rem;
+} 
+
+.dashboard-card {
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+@media (max-width: 575px) { 
+  .form-title {
+    font-size: 19px;
+  }
+  .dashboard-header {
+    width: 100% !important;
+  }
+  .dashboard-card {
+    width: 100%;
+  }
+ }
